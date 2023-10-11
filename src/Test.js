@@ -63,7 +63,11 @@ function App() {
           <thead>
             <tr>
               <th className="border border-gray-400 w-16 text-center">
+<<<<<<< HEAD
                 Sl No.s
+=======
+                Sl No.
+>>>>>>> c410878afd6710b3ebce4ec1cfa81302d54b6bdf
               </th>
               <th className="border border-gray-400 px-4 py-2">Title</th>
               <th className="border border-gray-400 px-4 py-2">Year</th>

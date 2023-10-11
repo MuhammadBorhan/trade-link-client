@@ -6,6 +6,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);
+  console.log(selectedProduct)
 
   const customFilter = (option, inputValue) => {
     const keywords = inputValue.toLowerCase().split(" ");
@@ -58,16 +59,16 @@ function App() {
 export default App;
 
 const products = [
-  { title: "AC AIR FILTER 17804 22023 G-COROLLA-ZZ 122-MALVO", year: 1994 },
-  { title: "AC AIR FILTER 17804 22023 G-COROLLA-ZZ 122-HONDA", year: 1994 },
-  { title: "AC AIR FILTER 17804 22023 G-COROLLA-ZZ 122-SUZUKI", year: 1994 },
-  { title: "AC AIR FILTER 17804 22023 G-COROLLA-ZZ 122-TOYOTA", year: 1994 },
+  { title: "AC AIR FILTER 17804 22020 G-COROLLA-ZZ 122-MALVO", year: 1994 },
+  { title: "AC AIR FILTER 17804 22021 G-COROLLA-ZZ 122-HONDA", year: 1994 },
+  { title: "AC AIR FILTER 17804 22021 G-COROLLA-ZZ 122-SUZUKI", year: 1994 },
+  { title: "AC AIR FILTER 17804 22022 G-COROLLA-ZZ 122-TOYOTA", year: 1994 },
   { title: "Hanger-Bose-1780 22020 G-COROLLA-ZZ 122-MALVO", year: 1994 },
   { title: "Hanger-Bose-1780 22020 G-COROLLA-ZZ 122-TOYOTA", year: 1994 },
   { title: "AIR FILTER 1782 22022 G-COROLLA-ZZ 122-FZ-5", year: 1994 },
-  { title: "AIR FILTER 1782 22022 G-COROLLA-ZZ 122-MALVO", year: 1994 },
+  { title: "AIR FILTER 1782 22023 G-COROLLA-ZZ 122-MALVO", year: 1994 },
   { title: "AIR FILTER 1782 22022 G-COROLLA-ZZ 122-R15", year: 1994 },
-  { title: "AIR FILTER 1782 22022 G-COROLLA-ZZ 122-SUZUKI", year: 1994 },
+  { title: "AIR FILTER 1782 22024 G-COROLLA-ZZ 122-SUZUKI", year: 1994 },
   { title: "AIR FILTER 1782 22022 G-COROLLA-ZZ-122-HONDA", year: 1994 },
   { title: "Hanger Bose 1780 22020 G-COROLLA-ZZ 122-MITSUBISI", year: 1994 },
   { title: "Hanger Bose 1782 22020 G-COROLLA-ZZ 122-HONDA", year: 1994 },
