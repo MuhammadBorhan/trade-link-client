@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main/Main";
 import Home from "../../Pages/Home/Home";
 import UserDashborad from "../../Pages/UserDashboard/UserDashborad";
+import UserDashboardMain from "../../Pages/UserDashboard/UserDashboardMain";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/network",
     element: <UserDashborad />,
+  },
+  {
+    path: "/user",
+    element: <UserDashboardMain />,
   },
 
   {
